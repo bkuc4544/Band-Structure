@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec 10 17:30:37 2024
+@author(s): Bharat Kuchhal, Dr. Zheng Shi
 
-@author: bkuch
+Code written to replicate results theoretically from paper by Dutt et. al.
+Decription of the paper: Dutt, A., Minkov, M., Lin, Q. et al. Experimental band structure spectroscopy along a 
+                         synthetic dimension. Nat Commun 10, 3122 (2019). https://doi.org/10.1038/s41467-019-11117-9
+
+Description: This code is used to simulate a band structure and describe how to extract it from a scope trace as the scope trace is a 1D photonic
+             density of states.
 """
 
 import numpy as np
@@ -15,9 +20,7 @@ V1 = 10
 V2 = 8
 #V2 = 3*V1
 Vpi = 11
-#Vpref = (Omega/4j)*V0/Vpi   # For VM = V0 sin (Omega*t) modulation
 Vpref1 = (Omega/4)*V1/Vpi     # For VM = V0 cos (Omega*t) modulation
-#Vpref2 = 0
 Vpref2 = (Omega/4)*V2/Vpi     # For VM = V0 cos (Omega*t) modulation
 
 q1 = 1
