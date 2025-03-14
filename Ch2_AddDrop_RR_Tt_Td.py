@@ -2,11 +2,12 @@
 """
 Created on Tue Dec 10 11:48:42 2024
 
-@author: bkuch
+@author: Bharat Kuchhal
 """
 
 """
-Code for Eqs. (2.23) and (2.24), Figure 2.3
+Description: This code plots the transmission spectrum via the Through and Drop ports for an Add-Drop Ring Resonator for different
+             beam-splitter configurations. 
 """
 
 import numpy as np
