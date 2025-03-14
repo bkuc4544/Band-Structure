@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Dec  6 17:28:45 2024
+@author: Bharat Kuchhal
 
-@author: bkuch
-
-Code for Ch1, Eqs. (1.6) and (1.1), Figures 1.2, 1.3
+Description: The code simulates the transmission and reflection for a Fabry-Perot cavity for different values of reflectivities.
 """
 
 import numpy as np
