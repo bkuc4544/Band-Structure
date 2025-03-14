@@ -2,8 +2,11 @@
 MSc thesis
 
 Author: Bharat Kuchhal
+
 University of Waterloo
+
 Supervisors: Prof. Christopher Wilson, Prof. Kevin Resch
+
 
 Description:
 
@@ -20,6 +23,7 @@ Chapter 3: CMT was applied to the case of a ring connected containing an electro
            Other theoretical results include when the input voltage is higher than the half-wave voltage, applied tone is twice 
            the FSR, or a superposition of FSR and twice the FSR with a pi/2 phase-shift and a voltage ratio of 1:0.8, or a 
            superposition of FSR and thrice the FSR with a voltage ratio of 1:3.
+
 
 Special Thanks:
 1. Dr. Zheng Shi
