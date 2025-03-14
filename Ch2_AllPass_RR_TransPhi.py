@@ -2,9 +2,10 @@
 """
 Created on Mon Dec  9 16:49:49 2024
 
-@author: bkuch
+@author: Bharat Kuchhal
 
-Ch2 Eqs. (2.5) and (2.6), Fig. 2.2
+Description: This code plots the transmission spectrum via the Through port and the overall Phase Shift for an All-Pass Ring Resonator 
+             for different cavity Finesse values.
 """
 
 import numpy as np
